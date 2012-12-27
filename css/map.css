@@ -1,0 +1,12 @@
+.map-viewport {
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    border: 1px solid #000;
+
+    position: relative;
+}
+
+.map-container {
+    position: absolute;
+}
