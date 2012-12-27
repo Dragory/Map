@@ -6,7 +6,7 @@ var Map = function(containerElem, mapParts, initialSizeFactor) {
     this.$container = null;
 
     // Default map size.
-    // To-do: move this to the Map arguements
+    // To-do: move this to the Map arguments
     // or check it dynamically.
     this.defaultSize = {
         'x': 800 * initialSizeFactor,
