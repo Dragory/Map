@@ -21,12 +21,11 @@
     <script type="text/javascript">
         $(document).ready(function() {
             var $mapElem = $('#map');
-            var map = new Map(
-                $mapElem,
-                [
-                    'images/mapparts/map.jpg'
-                ]
-            );
+            var mapParts = ['images/mapparts/map.jpg'];
+
+            var map = new Map($mapElem, mapParts, {
+                'initialZoom': 1
+            });
         });
     </script>
 </body>

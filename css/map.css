@@ -1,8 +1,9 @@
 .map-viewport {
-    width: 400px;
-    height: 400px;
+    width: 80%;
+    height: 600px;
     overflow: hidden;
     border: 1px solid #000;
+    margin: 0 auto;
 
     position: relative;
 }
